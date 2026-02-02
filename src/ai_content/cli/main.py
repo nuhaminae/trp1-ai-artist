@@ -605,8 +605,11 @@ async def _sync_jobs(job_id: str | None, download: bool):
 
             elif state.lower() in ("failed", "error"):
                 tracker.update_status(job.id, JobStatus.FAILED)
-            elif state.lower() in ("processing",):
+            elif state.lower() in ("processing", "generating"):
                 tracker.update_status(job.id, JobStatus.PROCESSING)
+            elif state.lower() in ("queued", "pending"):
+                # Keep as queued, don't update
+                pass
 
         except Exception as e:
             console.print(f"   [red]Error syncing {job.id}: {e}[/red]")
