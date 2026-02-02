@@ -85,9 +85,9 @@
 ## Links
 
 - **YouTube Video Link(s)**  
-  Unlisted YouTube Demo [(youtube.com in Bing)](https://www.bing.com/search?q="https%3A%2F%2Fyoutube.com%2Fyour-demo-link")
+  Unlisted YouTube Demo [(youtube.com)](https://www.bing.com/search?q="https%3A%2F%2Fyoutube.com%2Fyour-demo-link")
 
 - **GitHub Repo with Exploration Artifacts**  
-  My Exploration Repo [(github.com in Bing)](https://www.bing.com/search?q="https%3A%2F%2Fgithub.com%2Fyour-username%2Fmy-ai-artist")
+  My Exploration Repo [(github.com)](https://github.com/nuhaminae/trp1-ai-artist")
 
 ---
